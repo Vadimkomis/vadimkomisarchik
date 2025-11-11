@@ -1,7 +1,6 @@
 ---
 import { ClientRouter } from "astro:transitions";
 import {
-  DEV,
   PUBLIC_GOOGLE_SITE_VERIFICATION,
   PUBLIC_GOOGLE_ANALYTICS_ID,
 } from "astro:env/client";
@@ -133,7 +132,7 @@ const structuredData = {
     }
 
     {
-      !DEV &&
+      !isDev &&
         PUBLIC_GOOGLE_ANALYTICS_ID && (
           <>
             <script
@@ -168,3 +167,4 @@ gtag('config', '${PUBLIC_GOOGLE_ANALYTICS_ID}');`}
     height: 100%;
   }
 </style>
+const isDev = import.meta.env.DEV;
