@@ -144,6 +144,17 @@ PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
 
 > See [this discussion](https://github.com/satnaing/astro-paper/discussions/334#discussioncomment-10139247) for adding AstroPaper to the Google Search Console.
 
+## Google Analytics (optional)
+
+Add your [GA4 Measurement ID](https://support.google.com/analytics/answer/9539598) to start collecting traffic metrics. Analytics scripts are only injected into production builds, so they won't run during local development.
+
+```bash
+# in your environment variable file (.env)
+PUBLIC_GOOGLE_ANALYTICS_ID=G-XXXXXXXXXX
+```
+
+After redeploying, page views will flow into the property connected to that ID. If you are using `ClientRouter` transitions and need SPA-style route tracking, wire up [`gtag("config", ..., { page_path })`](https://developers.google.com/analytics/devguides/collection/ga4/data-layer) on navigation events.
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
