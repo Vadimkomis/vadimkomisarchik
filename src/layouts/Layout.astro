@@ -1,9 +1,6 @@
 ---
 import { ClientRouter } from "astro:transitions";
-import {
-  PUBLIC_GOOGLE_SITE_VERIFICATION,
-  PUBLIC_GOOGLE_ANALYTICS_ID,
-} from "astro:env/client";
+import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
 import { SITE } from "@/config";
 import "@/styles/global.css";
 
@@ -130,26 +127,6 @@ const structuredData = {
         />
       )
     }
-
-    {
-      !isDev &&
-        PUBLIC_GOOGLE_ANALYTICS_ID && (
-          <>
-            <script
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GOOGLE_ANALYTICS_ID}`}
-            ></script>
-            <script
-              is:inline
-              set:html={`window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${PUBLIC_GOOGLE_ANALYTICS_ID}');`}
-            />
-          </>
-        )
-    }
-
     <ClientRouter />
 
     <script is:inline src="/toggle-theme.js"></script>
@@ -167,4 +144,3 @@ gtag('config', '${PUBLIC_GOOGLE_ANALYTICS_ID}');`}
     height: 100%;
   }
 </style>
-const isDev = import.meta.env.DEV;
