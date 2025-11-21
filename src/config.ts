@@ -1,8 +1,8 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  website: "https://vadimkomisarchik.com/",
+  author: "Vadim Komisarchik",
+  profile: "https://vadimkomisarchik.com/",
+  desc: "Notes on engineering, entrepreneurship, and building systems that last.",
   title: "Vadim Komisarchik",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
