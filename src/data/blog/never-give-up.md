@@ -1,6 +1,6 @@
 ---
 author: Vadim Komisarchik
-pubDatetime: 2025-11-23T15:22:00Z
+pubDatetime: 2025-11-20T15:22:00Z
 title: Never Give Up
 slug: adding-new-posts-in-astropaper-theme
 featured: true
