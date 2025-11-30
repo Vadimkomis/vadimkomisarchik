@@ -2,7 +2,7 @@
 author: Vadim Komisarchik
 pubDatetime: 2025-11-20T15:22:00Z
 title: Never Give Up
-slug: adding-new-posts-in-astropaper-theme
+slug: Never Give Up
 featured: true
 draft: false
 tags:
