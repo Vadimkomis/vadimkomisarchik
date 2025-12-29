@@ -15,7 +15,7 @@ These guidelines keep the `vadimkomisarchik` Astro blog consistent, readable, an
 
 ## Content Craft Guidelines
 ### Readability & Flow
-- Keep paragraphs ≤ 4 sentences, sentences ≤ 20 words when possible.
+- Keep paragraphs ≤ 4 sentences and sentences ≤ 20 words when possible.
 - Use descriptive headings every 200–300 words; mirror the navigation trail shown by `Breadcrumb.astro`.
 - Break complex ideas into numbered steps or tables; prefer Astro `MarkdownLayout` components for callouts/admonitions.
 
@@ -42,7 +42,7 @@ These guidelines keep the `vadimkomisarchik` Astro blog consistent, readable, an
 
 ## Layout & Component Use
 - Keep typography hierarchy consistent with `Main.astro`; never override heading sizes inside posts except via scoped styles.
-- Use `ShareLinks.astro` + `BackToTopButton.astro` on all article pages.
+- Use `ShareLinks.astro` and `BackToTopButton.astro` on all article pages.
 - Pagination pages must include `Pagination.astro` and `Breadcrumb.astro` for continuity.
 - For experimental UI, add a new component under `src/components`, export from an index file, and document props in-code.
 
@@ -54,7 +54,7 @@ These guidelines keep the `vadimkomisarchik` Astro blog consistent, readable, an
   4. `npm run test` (if applicable)
 - Optimize long lists via Astro `paginate` helpers; avoid loading >20 posts on a single page.
 - Defer non-critical scripts with `client:idle` or `client:visible`.
-- Respect accessibility: test with `npm run astro check -- --diagnostics accessibility`.
+- Respect accessibility by running `npm run astro check -- --diagnostics accessibility`.
 
 ## Review Checklist (per post or feature)
 - [ ] Narrative ties back to at least one earlier article.
@@ -64,4 +64,4 @@ These guidelines keep the `vadimkomisarchik` Astro blog consistent, readable, an
 - [ ] CTA encourages readers to build or rethink something.
 - [ ] Layout uses shared components; no inline style drift.
 
-When in doubt, build something useful, tell the story of how you broke the boring way to reach it, and document it with clarity so others can create their own rebellion.
+When in doubt, build something useful, explain how you broke the boring way to reach it, and document it with clarity so others can create their own rebellion.
