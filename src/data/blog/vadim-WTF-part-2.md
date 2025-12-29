@@ -30,7 +30,7 @@ Here's what actually happened this week: I did the runs I said I would do. I pub
 
 ## The takeaway
 
-If you're stuck in your own head, write it down. Not for anyone else—for you. The act of writing forces clarity. Your excuses sound reasonable inside your skull. On paper, they look pathetic. That's the feature, not the bug.
+Real thinking happens when you write. Not for anyone else, but for you. The act of writing forces clarity. Your excuses sound reasonable inside your head. On paper, they look pathetic. 
 
 ✌️
 V.K.
