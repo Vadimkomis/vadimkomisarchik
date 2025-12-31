@@ -13,10 +13,11 @@ const { noMarginTop = false } = Astro.props;
 
 <footer class:list={["w-full", { "mt-auto": !noMarginTop }]}>
   <Hr noPadding />
-  <div
-    class="flex flex-col items-center justify-between py-6 sm:flex-row-reverse sm:py-4"
-  >
+  <div class="flex flex-col items-center gap-4 py-6 sm:py-4">
     <Socials centered />
+    <p class="text-center text-sm text-slate-500 dark:text-slate-400">
+      All posts are written by hand. AI is used only for editing and refinement.
+    </p>
     <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
       <span>Copyright &#169; {currentYear}</span>
       <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
