@@ -2,7 +2,7 @@
 author: Vadim Komisarchik
 pubDatetime: 2025-11-29T15:22:00Z
 title: Vadim, WTF! part 1
-slug: Vadim, WTF! part 1
+slug: vadim-wtf-part-1
 featured: true
 draft: false
 tags:

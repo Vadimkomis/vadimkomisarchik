@@ -11,7 +11,7 @@ tags:
 description: Another post, this time, a week later. 
 ---
 
-Last week in [Vadim, WTF! part 2](/blog/vadim-wtf-part-2) I talked about how real thinking happens when you write, not when you think.
+Last week in [Vadim, WTF! part 2](/posts/vadim-wtf-part-2) I talked about how real thinking happens when you write, not when you think.
 
 ## Consistency compounds
 Something happens in you when you deliver on promises you made to yourself. Especially, if they are really hard. The internet is full of people saying that doing hard things, is good for you. And it's true—it does something to your psyche that almost nothing else comes close to. 

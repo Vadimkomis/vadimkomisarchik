@@ -12,7 +12,7 @@ description: I promised weekly check-ins and broke that promise. Here's what I l
 ---
 
 
-Last month in [Vadim, WTF! part 1](/blog/vadim-wtf-part-1) I promised weekly public check-ins. I did not do that.
+Last month in [Vadim, WTF! part 1](/posts/vadim-wtf-part-1) I promised weekly public check-ins. I did not do that.
 
 ## Owning the broken promise
 
