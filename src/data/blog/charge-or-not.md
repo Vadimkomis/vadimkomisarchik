@@ -8,7 +8,7 @@ draft: false
 tags:
   - focus
   - discipline
-description: do you charge for it or now
+description: do you charge for it or not
 ---
 
 
