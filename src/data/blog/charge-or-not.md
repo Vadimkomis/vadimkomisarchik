@@ -1,14 +1,14 @@
 ---
 author: Vadim Komisarchik
 pubDatetime: 2026-02-25T15:22:00Z
-title: To Charge or Not To Charge That is the questions
+title:  To Charge or Not to Charge: That Is the Question
 slug: to-charge-or-not-to-charge-that-is-the-question
 featured: true
 draft: false
 tags:
   - focus
   - discipline
-description: do you charge for it or not
+description: do you charge for it or no
 ---
 
 
