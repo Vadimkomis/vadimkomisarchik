@@ -1,7 +1,7 @@
 ---
 author: Vadim Komisarchik
 pubDatetime: 2026-08-07T15:22:00Z
-title: Truth
+title: One Source of Truth
 featured: true
 draft: false
 tags:
