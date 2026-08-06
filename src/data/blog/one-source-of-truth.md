@@ -1,6 +1,6 @@
 ---
 author: Vadim Komisarchik
-pubDatetime: 2026-08-07T15:22:00Z
+pubDatetime: 2026-08-06T15:22:00Z
 title: One Source of Truth
 featured: true
 draft: false
